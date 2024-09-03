@@ -39,7 +39,7 @@ public class AbstractComponents {
 	public void iselementinvisible(By findBy) {
 		WebDriverWait waitb = new WebDriverWait(driver, Duration.ofSeconds(60));
 		waitb.until(ExpectedConditions.invisibilityOfElementLocated(findBy));
-		
+		System.out.println("1");
 	}
 	
 
