@@ -69,6 +69,7 @@ public class Agent {
 		System.out.println(a);
 		// assertEquals(a,"Claim Portal - Login");
 		System.out.println("Page Title is correct");
+		System.out.println("Page Title is correct");
 
 	}
 
