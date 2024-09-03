@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [AgentTestSuite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="AgentTests(failed)">
+    <classes>
+      <class name="seautomate.setngframework.Agent">
+        <methods>
+          <include name="dynamictable"/>
+          <include name="openBrowser"/>
+        </methods>
+      </class> <!-- seautomate.setngframework.Agent -->
+    </classes>
+  </test> <!-- AgentTests(failed) -->
+</suite> <!-- Failed suite [AgentTestSuite] -->
